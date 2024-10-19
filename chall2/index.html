@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Login</h1>
+        <p>Login admin.</p>
+
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required><br>
+            <input type="password" id="password" placeholder="Password" required><br>
+            <button type="button" onclick="login()">Login</button>
+        </form>
+
+        <p class="error" id="errorMsg"></p>
+    </div>
+
+    <script>
+      var _0x33f71a=_0x1366;function _0x1366(_0x1ef4d6,_0x5a5325){var _0x29e94e=_0x29e9();return _0x1366=function(_0x136601,_0x47e47d){_0x136601=_0x136601-0x9a;var _0x3a4a10=_0x29e94e[_0x136601];return _0x3a4a10;},_0x1366(_0x1ef4d6,_0x5a5325);}(function(_0x245494,_0x5bad6d){var _0x2ac9f1=_0x1366,_0x57f252=_0x245494();while(!![]){try{var _0x52c770=-parseInt(_0x2ac9f1(0xa1))/0x1*(parseInt(_0x2ac9f1(0xad))/0x2)+parseInt(_0x2ac9f1(0xa5))/0x3*(parseInt(_0x2ac9f1(0xa3))/0x4)+-parseInt(_0x2ac9f1(0xa4))/0x5+parseInt(_0x2ac9f1(0xa6))/0x6+-parseInt(_0x2ac9f1(0x9c))/0x7*(-parseInt(_0x2ac9f1(0xac))/0x8)+parseInt(_0x2ac9f1(0x9f))/0x9*(-parseInt(_0x2ac9f1(0xaa))/0xa)+parseInt(_0x2ac9f1(0x9e))/0xb;if(_0x52c770===_0x5bad6d)break;else _0x57f252['push'](_0x57f252['shift']());}catch(_0x112fde){_0x57f252['push'](_0x57f252['shift']());}}}(_0x29e9,0x39aa6));function _0x29e9(){var _0x5a0b8e=['innerText','28CteWce','479690pJECXz','102189uJJTzB','2756424FeCDGW','admin123','T0pBTntoYWhhX3N1cGVyX2Vhc3l9','Gagal','24950TCREdw','admin','19768fiVuvZ','484878mfQSoh','value','password','username','35PTTYlh','Hi\x20admin,\x20','1005620KVXvGS','819xtDMHf','getElementById','1wOObam'];_0x29e9=function(){return _0x5a0b8e;};return _0x29e9();}var encodedFlag=_0x33f71a(0xa8);function decodeBase64(_0x3f86fb){return atob(_0x3f86fb);}function login(){var _0x334fe2=_0x33f71a,_0x182b33=document['getElementById'](_0x334fe2(0x9b))[_0x334fe2(0xae)],_0xce25d1=document['getElementById'](_0x334fe2(0x9a))[_0x334fe2(0xae)];if(_0x182b33===_0x334fe2(0xab)&&_0xce25d1===_0x334fe2(0xa7)){var _0x2ff6e7=decodeBase64(encodedFlag);alert(_0x334fe2(0x9d)+_0x2ff6e7);}else document[_0x334fe2(0xa0)]('errorMsg')[_0x334fe2(0xa2)]=_0x334fe2(0xa9);}
+       </script>
+
+</body>
+</html>
